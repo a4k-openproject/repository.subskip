@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="13000">
+	<defaultcontrol always="true">201</defaultcontrol>
+	<animation effect="fade" start="0" end="100" time="300">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
+	<controls>
+		<control type="grouplist">
+			<height>108</height>
+			<bottom>320</bottom>
+			<right>16</right>
+			<orientation>horizontal</orientation>
+			<defaultcontrol>200</defaultcontrol>
+			<itemgap>8</itemgap>
+			<align>right</align>
+			
+			
+			<!-- Skip Intro -->
+			<control type="group" id="200">
+				<width>236</width>
+				<height>108</height>
+				<defaultcontrol>201</defaultcontrol>
+								
+				<control type="button" id="201">
+					<texturenofocus colordiffuse="ff232323">light_button_blank.png</texturenofocus>
+					<texturefocus colordiffuse="ff232323">light_button_blank.png</texturefocus>
+				</control>
+				
+				<!-- To keep icon and text centered in button -->
+				<control type="grouplist">
+					<width>236</width>
+					<height>108</height>
+					<top>36</top>
+					<itemgap>8</itemgap>
+					<align>center</align>
+					<orientation>horizontal</orientation>
+					
+					<control type="image">
+						<width>36</width>
+						<height>36</height>
+						<texture colordiffuse="ffff0000">skip-next.png</texture>
+					</control>
+					
+					<control type="label">
+						<width>auto</width>
+						<height>36</height>
+						<label>Skip Intro</label>
+						<textcolor>ffff0000</textcolor>
+					</control>
+				</control>
+			</control>
+			
+			
+			<!-- Share -->
+			<control type="group">
+				<width>98</width>
+				<height>108</height>
+				
+				<control type="button" id="202">
+					<texturenofocus colordiffuse="ff232323">icon_button_blank.png</texturenofocus>
+					<texturefocus colordiffuse="ff232323">icon_button_blank.png</texturefocus>
+				</control>
+				
+				<control type="image">
+					<top>36</top>
+					<left>32</left>
+					<width>36</width>
+					<height>36</height>
+					<texture colordiffuse="ffff0000">share.png</texture>
+				</control>
+			</control>
+			
+			
+			<!-- Close -->
+			<control type="group">
+				<width>98</width>
+				<height>108</height>
+				
+				<control type="button" id="203">
+					<texturenofocus colordiffuse="ff232323">icon_button_blank.png</texturenofocus>
+					<texturefocus colordiffuse="ff232323">icon_button_blank.png</texturefocus>
+				</control>
+				
+				<control type="image">
+					<top>36</top>
+					<left>32</left>
+					<width>36</width>
+					<height>36</height>
+					<texture colordiffuse="ffff0000">close.png</texture>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>
