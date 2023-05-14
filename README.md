@@ -1,7 +1,6 @@
 <img align="left" width="115px" height="115px" src="repo/repository.subskip/icon.png">
 
 # SubSkip Repository
-[![Kodi version](https://img.shields.io/badge/kodi%20versions-19-blue)](https://kodi.tv/)
 
 ## Description
 
